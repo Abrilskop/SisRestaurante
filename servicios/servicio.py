@@ -1,6 +1,7 @@
 from dao.clienteDAO import ClienteDAO
 from dao.platoDAO import PlatoDAO
 from entidades.cliente import Cliente
+from datetime import date
 
 class ClienteService:
     """Lógica de negocio para Clientes, incluyendo la oferta de fidelidad."""
