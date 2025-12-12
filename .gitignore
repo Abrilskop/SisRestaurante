@@ -1,0 +1,12 @@
+# Archivos compilados de Python (El caché)
+__pycache__/
+*.pyc
+
+# Carpetas de configuración de editores (Opcional pero recomendado)
+.vscode/
+.idea/
+
+# Entornos virtuales
+.venv/
+env/
+venv/

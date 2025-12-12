@@ -1,7 +1,7 @@
 # test_cliente.py
 from datetime import date
 
-import mysql
+import mysql.connector
 import pytest
 from unittest.mock import MagicMock
 from entidades.cliente import Cliente
