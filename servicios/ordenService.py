@@ -11,6 +11,6 @@ class OrdenService:
         id_gen = self.dao.guardar(nueva_orden)
         
         if id_gen != -1:
-            nueva_orden.id = id_gen # <--- ¡IMPORTANTE! Asignar el ID
+            nueva_orden.id = id_gen 
             return nueva_orden
         return None
